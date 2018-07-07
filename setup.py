@@ -7,13 +7,6 @@ import re
 from setuptools import find_packages, setup
 
 
-def read(*names, **kwargs):
-    return io.open(
-        join(dirname(__file__), *names),
-        encoding=kwargs.get('encoding', 'utf8')
-    ).read()
-
-
 setup(
     name='hex-roguelike-renderer',
     version='0.0.0',
